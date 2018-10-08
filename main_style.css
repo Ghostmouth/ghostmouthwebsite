@@ -1,0 +1,237 @@
+
+body
+{
+  padding: 0;
+  margin: 0;
+  background-image: url("http://www.ghostmouth.com/uploads/6/0/0/0/6000246/photo_5.jpg");
+  color: #370dc5;
+  font-family: arial, verdana, helvetica, tahoma, sans-serif;
+  font-size: 80%;
+  height: 1000px; /* Editor Fix */
+}
+
+img
+{
+  border: 0;
+}
+
+a
+{
+  text-decoration: none;
+  color: #0000FF;
+}
+
+a:hover
+{
+  text-decoration: none;
+  color: #0000FF;
+}
+
+#centrecontainer
+{
+  position: absolute;
+  top: 50%;
+  top: 375px; /* Editor Fix */
+  left: 0px;
+  width: 100%;
+}
+
+#outercontainer
+{
+  margin-left: -400px;
+  position: absolute;
+  top: -236px;
+  left: 50%;
+}
+
+#header
+{
+  width: 800px;
+  height: 27px;
+  letter-spacing: 1px;
+  
+}
+
+#container    
+{
+  border: 20px solid #FFF;
+  width: 760px;
+  height: 370px;
+}
+
+#containerleft
+{
+  float: left;
+  width: 350px;
+  height: 350px;
+  background-image:url('%%HEADERIMG%%');
+  border-right: 20px solid #FFF;
+  padding: 10px;
+}
+
+#containerleft a
+{
+  text-decoration: none;
+  color: #FFF;
+}
+
+#containerleft a:hover
+{
+  text-decoration: none;
+  color: #FF80A8;
+}
+
+#containerleft h2
+{
+  margin: 0;
+  padding: 0;
+  font-family: helvetica, arial, verdana, tahoma, sans-serif;
+  letter-spacing: -1px;
+  font-size: 250%;
+  text-align: right;
+}
+
+#containerright
+{
+  float: left;
+  width: 350px;
+  height: 350px;
+  background-image: #370dc5;
+  overflow: auto;
+  padding: 10px;
+  position: relative;
+  line-height:1.25;
+}
+
+#containerright h2
+{
+  margin: 0;
+  padding: 0;
+  font-family: helvetica, arial, verdana, tahoma, sans-serif;
+  letter-spacing: -1px;
+  font-size: 200%;
+  border-bottom: 1px solid #FFF;
+  padding-bottom: 5px;
+  width: 90%;
+  line-height:1.25;
+}
+
+#footer
+{
+  width: 800px;
+  text-align: right;
+  padding: 5px 0px;
+  color: #FF80A8;
+}
+
+#footer a
+{
+  text-decoration: none;
+  color: #FF80A8;
+  
+}
+
+#footer a:hover
+{
+  text-decoration: none;
+  color: #FFF;
+  
+}
+
+#navcontainer ul
+{
+        padding: 0;
+        margin: 0;
+        float: right;
+        width: 100%;
+}
+
+#navcontainer ul li
+{
+        display: inline;
+}
+
+#navcontainer ul li a
+{      
+        padding: 6px 10px 6px 9px;
+        color: #FFFFFF; 
+        text-decoration: none;
+        float: right;
+        font-weight: bold;
+       
+}
+
+#navcontainer ul li a:hover
+{
+        background-color: #FFF;
+        color: #db00bd;
+}
+#active a:link {
+   background-color: #FFF;
+     color: #db00bd;
+}
+#active a:hover {
+   background-color: #FFF;
+     color: #990031;
+}
+#active a:visited {
+   background-color: #FFF;
+     color: #db00bd;
+}
+/****************************** flyout menus ******************************/
+
+#weebly-menus .weebly-menu-wrap {
+  z-index: 5000;
+}
+
+#weebly-menus .weebly-menu {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+#weebly-menus .weebly-menu li {
+  float: left;
+  clear: left;
+  width: 170px;
+  text-align: left;
+}
+
+#weebly-menus .weebly-menu li a {
+  position: relative;
+  display: block;
+  width: 100%;
+  background: #fff;
+  border-right: 1px solid #fff;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fcbace;
+  text-decoration: none;
+  font-size: 11px;
+  font-weight: normal;
+  line-height:1;
+  padding:3px;
+  color: #a20031;
+}
+
+#weebly-menus .weebly-menu li a:hover {
+  background: #fcbace;
+}
+
+#weebly-menus span.weebly-menu-title {
+  display: block;
+  padding: 5px 10px;
+}
+
+#weebly-menus span.weebly-menu-more {
+  background: transparent url(http://images.weebly.com/weebly/images/submenu_arrow.gif) no-repeat center top;
+  display: block;
+  position: absolute;
+  right: 5px;
+  top: 0;
+  font-family: Courier;
+  height: 28px;
+  line-height: 28px;
+  padding:1px 0 3px 0;
+}
+
+
